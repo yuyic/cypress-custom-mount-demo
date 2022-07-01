@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "engines": {
+    "cyclone-designer": "3.6.0",
+    "cyclone-server": "3.6.0",
+    "executor-runtime": "3.2.1"
+  },
+  "scripts": {
+    "open": "cypress open",
+    "run": "cypress run"
+  },
+  "dependencies": {
+    "@ciri-design/components": "^1.1.129",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "cypress": "^10.3.0",
+    "typescript": "^4.7.4"
+  }
+}
